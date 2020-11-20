@@ -31,11 +31,18 @@ Quick start
         'api',
     ]
 ```
+
 3. Include the api URLconf in your project urls.py like this::
+
 ```
     path('', include('api.urls')),
 ```
 
-4. Visit  http://127.0.0.1:8000/api/django-filer/images to get api
+> `python manage runserver`
 
-5. Visit http://127.0.0.1:8000/api/django-filer/folders to get api.
+- Visit  http://127.0.0.1:8000/api/django-filer/images to get api
+
+- Visit http://127.0.0.1:8000/api/django-filer/folders to get api.
+
+- Visit http://127.0.0.1:8000/api/django-filer/folders/{:id} to get api.
+
