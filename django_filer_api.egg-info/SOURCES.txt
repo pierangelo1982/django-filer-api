@@ -1,0 +1,15 @@
+setup.cfg
+setup.py
+api/__init__.py
+api/admin.py
+api/apps.py
+api/models.py
+api/serializer.py
+api/tests.py
+api/urls.py
+api/views.py
+api/migrations/__init__.py
+django_filer_api.egg-info/PKG-INFO
+django_filer_api.egg-info/SOURCES.txt
+django_filer_api.egg-info/dependency_links.txt
+django_filer_api.egg-info/top_level.txt
