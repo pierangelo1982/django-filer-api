@@ -11,6 +11,9 @@ For More Info on Django Filer:
 Quick start
 -----------
 
+pip install django-filer-api
+
+
 1. Add "api" to your INSTALLED_APPS setting like this::
 ```
     INSTALLED_APPS = [
