@@ -15,7 +15,7 @@ Quick start
 ```
     INSTALLED_APPS = [
         ...
-        'api',
+        'filer_api',
     ]
 ```
 2 - include dependencies:
@@ -28,14 +28,14 @@ Quick start
         'easy_thumbnails',
         'filer',
         'mptt',
-        'api',
+        'filer_api',
     ]
 ```
 
 3. Include the api URLconf in your project urls.py like this::
 
 ```
-    path('', include('api.urls')),
+    path('', include('filer_api.urls')),
 ```
 
 > `python manage runserver`
